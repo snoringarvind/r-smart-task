@@ -1,0 +1,92 @@
+.Home .create-btn {
+  width: 100%;
+  margin: 20px 0;
+  padding: 4px;
+  font-size: 1.2rem;
+}
+
+.Home header {
+  border: 1px solid red;
+  text-align: center;
+  background-color: antiquewhite;
+  border-radius: 4px;
+}
+
+/* #### */
+.BlogForm {
+  border: 1px solid red;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.BlogForm form {
+  border: 1px solid green;
+  background-color: white;
+  width: 80%;
+  padding: 20px;
+  border-radius: 5px;
+  overflow-y: auto;
+  height: 70vh;
+}
+
+.BlogForm .form-group * {
+  display: block;
+}
+
+.BlogForm .form-group {
+  margin-bottom: 10px;
+}
+
+.BlogForm #title {
+  width: 100%;
+  padding: 5px;
+}
+
+.BlogForm .form-group textarea {
+  resize: none;
+  height: 45vh;
+  padding: 5px;
+  display: block;
+  width: 100%;
+}
+
+.BlogForm .button-group {
+  border: 1px solid red;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.BlogForm .button-group button {
+  display: block;
+  padding: 5px;
+  margin: 5px;
+}
+
+/* ##### */
+
+.BlogCard {
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  height: 500px;
+}
+
+.BlogCard .title,
+.content {
+  border: 1px solid;
+  padding: 10px;
+}
+
+.BlogCard .title {
+  font-weight: bold;
+}
